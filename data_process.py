@@ -13,7 +13,7 @@ train_data = []
 tagkind = []
 wrd_lst={}
 def get_data():
-    CVEs = readJson('/Users/parvez/Desktop/Fal2020/NLP/Project/full_corpus.json')
+    CVEs = readJson('full_corpus.json')
     for cve  in CVEs['MS-Bulletin']:
         text=""
         start = 0
